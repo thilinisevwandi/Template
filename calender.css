@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(66, 31, 6);
+}
+.year{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    /* height: 200px; */
+    margin: auto;
+    height: 100px;
+    font-size: 70px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(112, 5, 5);
+    background-color: rgb(141, 83, 42);
+    margin-top: 5%;
+}
+
+.container{
+    display: flex;
+
+    /* combine flex direction and wrap*/
+    flex-flow: row wrap;
+
+    /* aligned item along their main axis */
+    justify-content: flex-start;
+
+    /* aligned item along their cross axis */
+    /* align-items: center; */
+
+    /* aligned item along their cross axis for multiple rows */
+    align-content: center;
+
+    margin: auto;
+    width:700px;
+    height:auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  inset 0 0 10px 1px sandybrown(0.5, 0.5, 0.5, 0.5);
+}
+
+.item{
+    text-align: center;
+    width:14%;
+    height:100px;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid brown; */
+    font-size: 35px;
+    word-wrap: break-word;
+    box-shadow:  inset 0 0 10px 1px sandybrown(0.5, 0.5, 0.5, 0.5);
+}
+.container div:nth-child(1){
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.container div:nth-child(2){
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.container div:nth-child(3){
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+.container div:nth-child(4){
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+.container div:nth-child(5){
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.container div:nth-child(6){
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.container div:nth-child(7){
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(211, 20, 20);
+    
+}
+.container div:nth-child(14){
+    color: rgb(211, 20, 20);
+}
+.container div:nth-child(21){
+    color: rgb(211, 20, 20);
+}
+.container div:nth-child(28){
+    color: rgb(211, 20, 20);
+}
+.container div:nth-child(35){
+    color: rgb(211, 20, 20);
+}
+.container div:nth-child(39){
+    opacity: 0.2;
+}
+.container div:nth-child(40){
+    opacity: 0.2;
+}
+.container div:nth-child(41){
+    opacity: 0.2;
+}
+.container div:nth-child(42){
+    opacity: 0.2;
+}
+/* .container div:nth-child(18){
+    background-color: brown;
+    color: rgb(112, 5, 5);
+} */
+
+.special{
+    border-radius: 50%;
+    background-color:yellow;
+    padding:15px
+}
+.item:hover{
+    transform: scale(1.12);
+}
